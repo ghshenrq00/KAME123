@@ -187,6 +187,9 @@ OutputJobFileName1=Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
+[Generic_CoDesigner Mechatronic Panel]
+LastAcknowledgment=2020-06-08T15:36:37.2610000Z
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
