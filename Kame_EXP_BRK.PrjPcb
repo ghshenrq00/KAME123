@@ -32,6 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
@@ -123,40 +124,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=Assembly.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
-DocumentPath=Fabrication.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
 DocumentPath=Kame_EXP_BRK.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,13 +140,47 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VTBJZVAY
 
-[Parameter1]
-Name=Project
-Value=KAME_EXP_BRK
+[Document6]
+DocumentPath=Managed\OutputJobs\36AFC9B8-2D25-46DE-9859-E6A60144F929\OUT-0001-2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[Parameter2]
+[Document7]
+DocumentPath=Managed\OutputJobs\8AC4DC32-5B39-4BA1-9063-7C658FCC457E\OUT-0000-2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Parameter1]
 Name=ProjectRev
 Value=1
+
+[Parameter2]
+Name=Project
+Value=KAME_EXP_BRK
 
 [Configuration1]
 Name=Sources
@@ -187,7 +188,37 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=930BD98C-EB3F-4ECA-80C7-4A60CC6D66C7
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=2
+DocumentReferenceClass1=ManagedDocumentReference
+OutputJobFileName1=OUT-0001-2.OutJob
+VaultGUID1=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
+VaultHRID1=SKA- Automação de Engenharias
+ItemGUID1=4FC2653C-2272-4843-BB0B-E21CD0C11355
+ItemHRID1=OUT-0001
+RevisionGUID1=36AFC9B8-2D25-46DE-9859-E6A60144F929
+RevisionHRID1=OUT-0001-2
+Cached_RevisionCaption1=Fabrication Gerber
+Cached_RevisionDescription1=Fabrication Gerber
+Cached_LifeCycleStateHRID1=Draft
+Cached_LifeCycleStateGUID1=[Unknown]
+Cached_LifeCycleStateColor1=00F0F0F0
+Cached_LifeCycleStateTextColor1=00606060
+Cached_RevisionReleaseDate1=20/04/2018 14:35:23
+DocumentReferenceClass2=ManagedDocumentReference
+OutputJobFileName2=OUT-0000-2.OutJob
+VaultGUID2=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
+VaultHRID2=SKA- Automação de Engenharias
+ItemGUID2=0B97B500-C8C3-4D16-A92E-C3525A018312
+ItemHRID2=OUT-0000
+RevisionGUID2=8AC4DC32-5B39-4BA1-9063-7C658FCC457E
+RevisionHRID2=OUT-0000-2
+Cached_RevisionCaption2=Assembly
+Cached_RevisionDescription2=Assembly
+Cached_LifeCycleStateHRID2=Draft
+Cached_LifeCycleStateGUID2=[Unknown]
+Cached_LifeCycleStateColor2=00F0F0F0
+Cached_LifeCycleStateTextColor2=00606060
+Cached_RevisionReleaseDate2=20/04/2018 14:32:46
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
@@ -197,9 +228,39 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=DC6CC35B-FFEB-4FF1-A73D-29F943D5CB06
 Variant=[No Variations]
-OutputJobsCount=1
+OutputJobsCount=3
 DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Fabrication.OutJob
+DocumentReferenceClass2=ManagedDocumentReference
+OutputJobFileName2=OUT-0001-2.OutJob
+VaultGUID2=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
+VaultHRID2=SKA- Automação de Engenharias
+ItemGUID2=4FC2653C-2272-4843-BB0B-E21CD0C11355
+ItemHRID2=OUT-0001
+RevisionGUID2=36AFC9B8-2D25-46DE-9859-E6A60144F929
+RevisionHRID2=OUT-0001-2
+Cached_RevisionCaption2=Fabrication Gerber
+Cached_RevisionDescription2=Fabrication Gerber
+Cached_LifeCycleStateHRID2=Draft
+Cached_LifeCycleStateGUID2=[Unknown]
+Cached_LifeCycleStateColor2=00F0F0F0
+Cached_LifeCycleStateTextColor2=00606060
+Cached_RevisionReleaseDate2=20/04/2018 14:35:23
+DocumentReferenceClass3=ManagedDocumentReference
+OutputJobFileName3=OUT-0000-2.OutJob
+VaultGUID3=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
+VaultHRID3=SKA- Automação de Engenharias
+ItemGUID3=0B97B500-C8C3-4D16-A92E-C3525A018312
+ItemHRID3=OUT-0000
+RevisionGUID3=8AC4DC32-5B39-4BA1-9063-7C658FCC457E
+RevisionHRID3=OUT-0000-2
+Cached_RevisionCaption3=Assembly
+Cached_RevisionDescription3=Assembly
+Cached_LifeCycleStateHRID3=Draft
+Cached_LifeCycleStateGUID3=[Unknown]
+Cached_LifeCycleStateColor3=00F0F0F0
+Cached_LifeCycleStateTextColor3=00606060
+Cached_RevisionReleaseDate3=20/04/2018 14:32:46
 ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Fabrication
 
@@ -209,9 +270,39 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=599BA453-B504-4D41-9439-51206AF0F7E9
 Variant=[No Variations]
-OutputJobsCount=1
+OutputJobsCount=3
 DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Assembly.OutJob
+DocumentReferenceClass2=ManagedDocumentReference
+OutputJobFileName2=OUT-0001-2.OutJob
+VaultGUID2=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
+VaultHRID2=SKA- Automação de Engenharias
+ItemGUID2=4FC2653C-2272-4843-BB0B-E21CD0C11355
+ItemHRID2=OUT-0001
+RevisionGUID2=36AFC9B8-2D25-46DE-9859-E6A60144F929
+RevisionHRID2=OUT-0001-2
+Cached_RevisionCaption2=Fabrication Gerber
+Cached_RevisionDescription2=Fabrication Gerber
+Cached_LifeCycleStateHRID2=Draft
+Cached_LifeCycleStateGUID2=[Unknown]
+Cached_LifeCycleStateColor2=00F0F0F0
+Cached_LifeCycleStateTextColor2=00606060
+Cached_RevisionReleaseDate2=20/04/2018 14:35:23
+DocumentReferenceClass3=ManagedDocumentReference
+OutputJobFileName3=OUT-0000-2.OutJob
+VaultGUID3=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
+VaultHRID3=SKA- Automação de Engenharias
+ItemGUID3=0B97B500-C8C3-4D16-A92E-C3525A018312
+ItemHRID3=OUT-0000
+RevisionGUID3=8AC4DC32-5B39-4BA1-9063-7C658FCC457E
+RevisionHRID3=OUT-0000-2
+Cached_RevisionCaption3=Assembly
+Cached_RevisionDescription3=Assembly
+Cached_LifeCycleStateHRID3=Draft
+Cached_LifeCycleStateGUID3=[Unknown]
+Cached_LifeCycleStateColor3=00F0F0F0
+Cached_LifeCycleStateTextColor3=00606060
+Cached_RevisionReleaseDate3=20/04/2018 14:32:46
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
@@ -423,18 +514,6 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=PCBDrawing
-OutputName14=Draftsman
-OutputDocumentPath14=
-OutputVariantName14=[No Variations]
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=PCBDrawing
-OutputName15=Draftsman
-OutputDocumentPath15=
-OutputVariantName15=[No Variations]
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -457,6 +536,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -596,102 +680,6 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Text Print
-OutputName2=Text Print
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Text Print
-OutputName3=Text Print
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Text Print
-OutputName4=Text Print
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Text Print
-OutputName5=Text Print
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=Text Print
-OutputName6=Text Print
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=Text Print
-OutputName7=Text Print
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Text Print
-OutputName8=Text Print
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Text Print
-OutputName9=Text Print
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Text Print
-OutputName10=Text Print
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Text Print
-OutputName11=Text Print
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Text Print
-OutputName12=Text Print
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Text Print
-OutputName13=Text Print
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=Text Print
-OutputName14=Text Print
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=Text Print
-OutputName15=Text Print
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=Text Print
-OutputName16=Text Print
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=Text Print
-OutputName17=Text Print
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -951,6 +939,20 @@ Type133=1
 Type134=1
 Type135=1
 Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
 
 [Difference Levels]
 Type1=1
@@ -1027,6 +1029,13 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1180,6 +1189,9 @@ Type148=2
 Type149=2
 Type150=2
 Type151=2
+Type152=1
+Type153=1
+Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1256,4 +1268,34 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Us
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+
+[ManagedOutputJobs1]
+VaultGUID=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
+VaultHRID=SKA- Automação de Engenharias
+ItemGUID=4FC2653C-2272-4843-BB0B-E21CD0C11355
+ItemHRID=OUT-0001
+RevisionGUID=36AFC9B8-2D25-46DE-9859-E6A60144F929
+RevisionHRID=OUT-0001-2
+Cached_RevisionCaption=Fabrication Gerber
+Cached_RevisionDescription=Fabrication Gerber
+Cached_LifeCycleStateHRID=Draft
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=00F0F0F0
+Cached_LifeCycleStateTextColor=00606060
+Cached_RevisionReleaseDate=20/04/2018 14:35:23
+
+[ManagedOutputJobs2]
+VaultGUID=4A797E1E-BB22-41D9-8A94-FCF32F6D68BE
+VaultHRID=SKA- Automação de Engenharias
+ItemGUID=0B97B500-C8C3-4D16-A92E-C3525A018312
+ItemHRID=OUT-0000
+RevisionGUID=8AC4DC32-5B39-4BA1-9063-7C658FCC457E
+RevisionHRID=OUT-0000-2
+Cached_RevisionCaption=Assembly
+Cached_RevisionDescription=Assembly
+Cached_LifeCycleStateHRID=Draft
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=00F0F0F0
+Cached_LifeCycleStateTextColor=00606060
+Cached_RevisionReleaseDate=20/04/2018 14:32:46
 
